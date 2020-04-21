@@ -3,4 +3,4 @@ Consul is a distributed, highly available, datacenter-aware, service discovery a
 
 
 use case:
- If 2 people are working on the same infrastructure with terraform using a git repository (e.g. github), but not sharing the terraform.tfstate, terraform might give an error when triying to create or change an infrastructure, becouse terraform doesn't know the remote state of the other person. You will need to share the terraform.tfstate file using consul or S3.
+ If 2 people are working on the same infrastructure with terraform using a git repository (e.g. github), but not sharing the terraform.tfstate, terraform might give an error when triying to create or change an infrastructure, because terraform doesn't know the remote state of the other person. You will need to share the terraform.tfstate file using consul or S3.

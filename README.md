@@ -1,0 +1,1 @@
+# external_module_vpc.tf
